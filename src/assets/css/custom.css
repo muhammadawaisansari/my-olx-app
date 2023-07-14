@@ -1,0 +1,74 @@
+ /* Bootstrap Focus remove */
+ textarea:hover, 
+ input:hover, 
+ textarea:active, 
+ input:active, 
+ textarea:focus, 
+ input:focus,
+ button:focus,
+ button:active,
+ button:hover,
+ label:focus,
+ .btn:active,
+ .btn.active
+ {
+     outline:0px !important;
+     -webkit-appearance:none;
+     box-shadow: none !important;
+ }
+.Categoryimg {
+    border-radius: 50%;
+    height: 90px!important;
+    width: 98px!important;
+  }
+  .fontSize14{
+    font-size: 14px;
+  }
+
+  .ratingFont {
+    font-size: 11px;
+  }
+
+  .productImageHeight {
+    height: 185px !important;
+    width: 100% !important;
+  }
+
+  .imageThumbnail {
+    min-width: 96px;
+    height: 96px;
+  }
+
+  .detailMainImage {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+  }
+  .ratingFont {
+    font-size: 11px;
+  }
+
+  .productImageHeight {
+    height: 185px!important;
+    width: 100%!important;
+  }
+
+  .mask{
+    height: 50px!important;
+  }
+  .filter-btn{
+    width: 60px;
+  }
+
+  .badge-offer{
+    background-color: #f87217;
+  }
+  .navbarfixed {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  

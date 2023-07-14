@@ -1,0 +1,11 @@
+.animate{
+    position: relative;
+    animation: topDownAnimation 1s 500;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes topDownAnimation {
+    0%   { left: 0px; top: 0px;}
+    100% {left: 0px; top: 30px;}
+  }
